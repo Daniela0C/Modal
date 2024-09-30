@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="modal.css">
+    <script src="modal.js"></script>
+    <title>Modal</title>
+</head>
+<body>
+    <div class="informação">
+        <h1>Modal exemplo</h1>
+        <button onclick="abrirModal()">Abrir Modal</button>
+    </div>
+    <div class="janelaModal" id="janelaModal">
+        <div class="conteudoModal">    
+            <span onclick="fecharModal()" class="fecharModal">x</span>
+            <h1 class="palavra">Esta é uma janela modal, você pode fecha-la ao clicar no x acima</h1>
+        </div>
+    </div>
+</body>
+</html>

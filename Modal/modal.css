@@ -1,0 +1,45 @@
+body{
+    background-color: bisque;
+}
+
+.informação{
+    text-align: center;
+}
+
+button{
+    background-color: rgb(141, 92, 32);
+    color: rgb(255, 255, 255);
+    padding: 1%;
+    border-radius: 30px;
+    font-size: xx-large;
+    border-color: rgb(141, 92, 32);
+}
+
+.janelaModal{
+    display: none;
+}
+
+.conteudoModal{
+    position: fixed;
+    transform: translate(-50%, -50%);/*representam respectivamente o eixo X e o eixo Y*/
+    left: 50%;/*Como no plano cartesiano você pode personalizar  o horizonte o eixo x*/
+    top: 50%;/*Como no plano cartesiano você pode personalizar a vertical o eixo y*/
+    background-color: rgb(193, 144, 96);
+    box-shadow: 10px 10px 15px rgb(119, 69, 20);
+    border-radius: 20px;
+    text-align: center;
+    width: 30%;
+    padding: 2%;
+    padding-top: 1%;
+}
+
+.fecharModal{
+    font-family: cursive;
+    font-size: xx-large;
+    margin-left: 90%;
+    cursor: pointer;
+}
+
+.palavra{
+    margin-bottom: 10%;
+}
